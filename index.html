@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NERVOVIVE – Exclusive Deals</title>
+  <style>
+    :root {
+      --primary: #ff7f50;
+      --primary-dark: #ff6333;
+      --text: #333;
+      --bg: #f8f9fa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .card {
+      background: #fff;
+      width: 92%;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+      padding: 2.7rem 2.2rem 3rem;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 1.4rem;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 1.1rem;
+    }
+
+    p.lead {
+      font-size: 1.15rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      background: #eef1f5;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .cta-btn {
+      background: var(--primary);
+      background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #fff;
+      border: none;
+      padding: 1rem 2.2rem;
+      font-size: 1.05rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.25s ease;
+    }
+
+    .cta-btn:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      font-size: 0.8rem;
+      color: #6d6d6d;
+      margin-top: 2.2rem;
+    }
+
+    @media (min-width: 768px) {
+      .brand { font-size: 3rem; }
+      h1 { font-size: 2.2rem; }
+      p.lead { font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="brand">NERVOVIVE</div>
+    <h1>The Natural Nerve‑Supporting Breakthrough</h1>
+    <p class="lead">Accept cookies to unlock today’s <strong>exclusive Nervovive deals</strong> &amp; special bonuses.</p>
+
+    <div class="badges">
+      <span class="badge">🇺🇸 Made in the USA</span>
+      <span class="badge">🌿 Natural Ingredients</span>
+      <span class="badge">✅ GMP Certified</span>
+      <span class="badge">⚡ Fast Absorption</span>
+      <span class="badge">🧬 Non‑GMO</span>
+    </div>
+
+    <button id="orderBtn" class="cta-btn">Accept Cookies &amp; Continue</button>
+
+    <footer>We use cookies to personalize content &amp; improve your experience.</footer>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.getElementById('orderBtn');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          window.location.href = 'https://thenervovive24.com/text.php#aff=cairoduarte';
+        });
+      }
+    });
+  </script>
+</body>
+</html>
